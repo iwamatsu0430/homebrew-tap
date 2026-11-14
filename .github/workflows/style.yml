@@ -1,0 +1,25 @@
+name: brew style
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  style:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: Homebrew/actions/setup-homebrew@main
+      - name: Run brew style
+        run: |
+          shopt -s nullglob
+          files=(Formula/*.rb Casks/*.rb)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "No formulae or casks yet."
+            exit 0
+          fi
+          brew style "${files[@]}"
