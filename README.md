@@ -11,7 +11,7 @@ brew tap iwamatsu0430/tap
 Or install a package directly without tapping first:
 
 ```sh
-brew install iwamatsu0430/tap/<formula>
+brew install --formula iwamatsu0430/tap/<formula>
 brew install --cask iwamatsu0430/tap/<cask>
 ```
 
@@ -19,7 +19,7 @@ brew install --cask iwamatsu0430/tap/<cask>
 
 | Name | Type | Install | Description |
 | --- | --- | --- | --- |
-| [sockdock](https://github.com/iwamatsu0430/sock-dock-slack) | Formula | `brew install iwamatsu0430/tap/sockdock` | CLI to run Slack apps locally over one Socket Mode connection |
+| [sockdock](https://github.com/iwamatsu0430/sock-dock-slack) | Formula | `brew install --formula iwamatsu0430/tap/sockdock` | CLI to run Slack apps locally over one Socket Mode connection |
 | [sockdock](https://github.com/iwamatsu0430/sock-dock-slack) | Cask | `brew install --cask iwamatsu0430/tap/sockdock` | Menu bar app for SockDock |
 
 ### Notes
