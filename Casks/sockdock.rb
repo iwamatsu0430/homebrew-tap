@@ -1,6 +1,6 @@
 cask "sockdock" do
-  version "0.2.1"
-  sha256 "10c6553a821a61229c28b9f09aaaa79e28528d193dbe8f1e0789c09127f919b2"
+  version "0.3.0"
+  sha256 "7530f518e6e1796b6414c19680d456d1e823de23ba7c667c7e1fff3e1f4dbb93"
 
   url "https://github.com/iwamatsu0430/sock-dock-slack/releases/download/v#{version}/SockDock-#{version}.zip"
   name "SockDock"

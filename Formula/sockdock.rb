@@ -1,8 +1,8 @@
 class Sockdock < Formula
   desc "Run Slack apps locally: one Socket Mode connection, many handlers"
   homepage "https://github.com/iwamatsu0430/sock-dock-slack"
-  url "https://github.com/iwamatsu0430/sock-dock-slack/archive/refs/tags/v0.2.1.tar.gz"
-  sha256 "5073786cf418b982a3d82ad27c555ae2028b4707caa29db4035a6aeaa5659094"
+  url "https://github.com/iwamatsu0430/sock-dock-slack/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "e20d03cdacfd292c3971f95893a6fd5463b36ee967bf461a28eff31577b415d9"
   license "MIT"
   head "https://github.com/iwamatsu0430/sock-dock-slack.git", branch: "main"
 
